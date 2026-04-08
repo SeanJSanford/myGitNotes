@@ -3,15 +3,15 @@
 
 Commands
 
-git init
-git status
-git add <file>
-git add -A
-git commit -m '<msg here>'
-git checkout -b <branchName>
-git checkout <branchName>
-git branch
-git merge <branchName>
-git tag -a '<ver>' -m '<msg>'
-git remote add <origin> <url>
-git push origin <branchName>
+git init                        # turns current folder into repo
+git status                      # Im lost, help me
+git add <file>                  # stage a change
+git add -A                      # stages all not in the ignore
+git commit -m '<msg here>'      # git commit with inline msg
+git checkout -b <branchName>    # create and checkout new branch
+git checkout <branchName>       # changes branch
+git branch                      # list of all branches
+git merge <branchName>          # merging other branch into current
+git tag -a '<ver>' -m '<msg>'   # tagging an annotated tag witg msg
+git remote add <origin> <url>   # adding a remote
+git push origin <branchName>    # pushing branch to github   
